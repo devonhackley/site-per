@@ -1,0 +1,20 @@
+{
+  "name": "site-per",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devonhackley/site-per.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devonhackley/site-per/issues"
+  },
+  "homepage": "https://github.com/devonhackley/site-per#readme"
+}
