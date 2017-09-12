@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,30 @@
   "bugs": {
     "url": "https://github.com/devonhackley/site-per/issues"
   },
-  "homepage": "https://github.com/devonhackley/site-per#readme"
+  "homepage": "https://github.com/devonhackley/site-per#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap-sass": "^3.3.7",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.6.1",
+    "eslint-plugin-react": "^7.3.0",
+    "express": "^4.15.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "resolve-url-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.6"
+  }
 }
