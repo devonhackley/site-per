@@ -1,3 +1,5 @@
+'use strict';
+
 import React, ReactDOM, {Component} from 'react';
 import './scss/main.scss';
 import App from './component/App';
