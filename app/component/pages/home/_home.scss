@@ -3,13 +3,24 @@
 }
 
 .right {
-  background: blue;
   min-height: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.home-heading {
+  position: relative;
+  padding:5.5em 2em 2em;
+  font-size: 3em;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 0.3em;
 }
 
 
 .pic {
-  width: 100%;
-  padding: 1em;
+  width: 80%;
+  padding: 1.5em;
   position: relative;
+  margin: 0 auto;
 }
