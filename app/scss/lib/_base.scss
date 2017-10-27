@@ -1,0 +1,38 @@
+* {
+  font-family: helvetica;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position:relative;
+  background: #fff;
+}
+
+h1{
+  font-size: 32px
+}
+
+p{
+  font-size: 19px;
+  margin: 15px;
+}
+footer{
+  position: fixed;
+  margin-top: 30px;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background: black;
+}
+button{
+  &:hover{
+    cursor: pointer;
+  }
+}
+input{
+  border-radius: 5px;
+}
