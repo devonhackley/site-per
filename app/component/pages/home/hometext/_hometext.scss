@@ -1,0 +1,57 @@
+.text,
+.text-item {
+  height: 50px;
+}
+
+.text {
+  overflow: hidden;
+  background-color: #fff;
+  color: #E2071C;
+}
+
+.text-item {
+  position: relative;
+  font-size: 1em;
+  padding-top: .75em;
+  animation: animatetotop 1s steps(3) infinite;
+}
+
+.text-item_inner,
+.text-item-overlay {
+  display: inline-block;
+}
+
+.text-item_inner {
+  position: relative;
+  line-height: 1.3;
+}
+
+.text-item_inner:after {
+  content: "";
+  position: absolute;
+  top:0px;right:0;bottom:0px;left:0;
+
+  background-color: #fff;
+  animation: animatetoright 1.1s steps(10) infinite alternate;
+}
+
+@keyframes animatetoright {
+  0% {
+    left: 0;
+    margin-right: auto;
+  }
+  100% {
+    left: 100%;
+    margin-left: .6em;
+    margin-right: -.6em;
+  }
+}
+
+@keyframes animatetotop {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -240px;
+  }
+}
