@@ -1,5 +1,8 @@
 .left {
   min-height: 100%;
+  padding-bottom:90px;
+  background-color: #0D355A;
+
 }
 
 .right {
@@ -10,11 +13,14 @@
 
 .home-heading {
   position: relative;
-  padding:5.5em 2em 2em;
+  width: 80%;
+  margin: 3em auto 0em;
+  padding: 1em 2em;
   font-size: 3em;
   font-weight: 200;
   line-height: 1.5;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
+
 }
 
 

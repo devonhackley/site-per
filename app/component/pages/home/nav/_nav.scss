@@ -3,8 +3,18 @@
   text-align: center;
   text-decoration: none;
   list-style: none;
+  &:hover {
+    text-decoration: none;
+    list-style: none;
+  }
 }
 
-.nav-link {
-  padding: 2.5em;
+.nav-link, .nav-link a {
+  color: #ACE;
+  padding: 3em 0em 2.5em;
+  &:hover {
+    color: #F00B42;
+    text-decoration: none;
+    list-style: none;
+  }
 }
