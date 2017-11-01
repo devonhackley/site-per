@@ -1,5 +1,6 @@
 .site-nav {
   margin: 0 auto;
+  padding-top: 5em;
   text-align: center;
   text-decoration: none;
   list-style: none;
@@ -10,9 +11,12 @@
 }
 
 .nav-link, .nav-link a {
+  font-size: 1em;
+  font-weight: 100;
   color: #ACE;
-  padding: 3em 0em 2.5em;
+  padding: 2em 0em 2em;
   &:hover {
+    font-weight: 500;
     color: #F00B42;
     text-decoration: none;
     list-style: none;

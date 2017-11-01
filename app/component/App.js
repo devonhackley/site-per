@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 
 import Homepage from './pages/home/home.js';
-import '../scss/main.scss';
+import '../public/scss/main.scss';
 
 
 class App extends Component {
