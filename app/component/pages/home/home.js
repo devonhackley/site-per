@@ -1,7 +1,7 @@
 'use strict';
 import React, { Component } from 'react';
 
-import Nav from './nav/nav';
+import PageLeft from '../page-left';
 import HomeText from './hometext/hometext';
 import "./_home.scss";
 
@@ -11,11 +11,7 @@ class Home extends Component {
       <div className="container-fluid">
         <div className="row ">
           <div className="col col-sm-6 col-md-4 col-lg-3">
-            <div className="left">
-              <div className="pic"><img  className="img-responsive"   src="http://i64.tinypic.com/2q2ltmh.png" />
-              </div>
-              <Nav />
-            </div>
+            <PageLeft />
           </div>
           <div className="col col-sm-6 col-md-8 col-lg-9">
             <div className="right">
