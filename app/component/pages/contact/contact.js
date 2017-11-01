@@ -1,13 +1,11 @@
 'use strict';
+
 import React, { Component } from 'react';
-
 import PageLeft from '../page-left';
-import HomeText from './hometext/hometext';
-import "./_home.scss";
 
-class Home extends Component {
+class Contact extends Component {
   render(){
-    return (
+    return(
       <div className="container-fluid">
         <div className="row ">
           <div className="col col-sm-6 col-md-4 col-lg-3">
@@ -15,11 +13,6 @@ class Home extends Component {
           </div>
           <div className="col col-sm-6 col-md-8 col-lg-9">
             <div className="right">
-              <div className="home-heading">
-                <h2> Hi, my name is <span>Devon</span></h2>
-                <h2> and</h2>
-                <h2> I am a <HomeText /></h2>
-              </div>
             </div>
           </div>
         </div>
@@ -28,4 +21,5 @@ class Home extends Component {
   }
 }
 
-export default Home;
+
+export default Contact;

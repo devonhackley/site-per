@@ -2,8 +2,9 @@
 
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Homepage from './pages/home/home.js';
+import HomePage from './pages/home/home.js';
 import ExpPage from './pages/exp/exp.js';
+import ContactPage from './pages/contact/contact.js';
 
 class App extends Component {
   render(){
@@ -11,9 +12,10 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <Switch>
-            <Route exact path="/" component={Homepage}/>
-            <Route exact path="/home" component={Homepage}/>
+            <Route exact path="/" component={HomePage}/>
+            <Route exact path="/home" component={HomePage}/>
             <Route exact path="/exp" component={ExpPage}/>
+            <Route exact path="/contact" component={ContactPage}/>
           </Switch>
         </div>
       </BrowserRouter>
