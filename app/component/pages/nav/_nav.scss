@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+$font-v: 'VT323', monospace;
+
 .site-nav {
   margin: 0 auto;
   padding-top: 5em;
@@ -11,10 +15,11 @@
 }
 
 .nav-link, .nav-link a {
-  font-size: 1em;
-  font-weight: 100;
+  font-size: 1.3em;
+  font-weight: 300;
+  font-family: $font-v;
   color: #ACE;
-  padding: 2em 0em 2em;
+  padding: 1em 0em 1em;
   &:hover {
     font-weight: 500;
     color: #F00B42;

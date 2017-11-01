@@ -12,7 +12,8 @@ class Exp extends Component {
             <PageLeft />
           </div>
           <div className="col col-sm-6 col-md-8 col-lg-9">
-            <div className="right">
+            <div>
+              
             </div>
           </div>
         </div>

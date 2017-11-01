@@ -11,22 +11,18 @@ $font-roboto: 'Roboto Condensed', sans-serif;
   right:15px;
   width: 100%;
   min-height: 100%;
-  padding-bottom:160px;
+  padding-bottom:150px;
   border-bottom-right-radius: 5px;
   background-color: #0D355A;
 
 }
 
-.right {
-  min-height: 100%;
-  padding-bottom:100px;
-}
 
 .home-heading {
   position: relative;
   width: 80%;
   text-align: center;
-  margin: 2em 2em 0.8em;
+  margin: 2em 2em 0.5em;
   padding: 1em;
   font-size: 3em;
   font-family: $font-contrail;

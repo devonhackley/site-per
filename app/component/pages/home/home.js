@@ -14,7 +14,7 @@ class Home extends Component {
             <PageLeft />
           </div>
           <div className="col col-sm-6 col-md-8 col-lg-9">
-            <div className="right">
+            <div>
               <div className="home-heading">
                 <h2> Hi, my name is <span>Devon</span></h2>
                 <h2> and</h2>
