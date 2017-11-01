@@ -1,8 +1,11 @@
-* {
-  font-family: helvetica;
-}
+@import url('https://fonts.googleapis.com/css?family=Contrail+One');
+
+$font-contrail: 'Contrail One', cursive;
+
+
 
 body {
+  font-family: $font-contrail;
   min-height: 100%;
   width: 100%;
   margin: 0;
