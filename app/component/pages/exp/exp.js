@@ -9,7 +9,7 @@ import './_exp.scss';
 class Exp extends Component {
   render(){
     const settings = {
-      showArrows: false,
+      showArrows: true,
       showThumbs: true,
       showStatus: false
     };
@@ -24,10 +24,8 @@ class Exp extends Component {
               <h3 className="title">Projects</h3>
               <div className="hr"></div>
               <div className="projects">
-                <Carousel {...settings}>
                   <Projects />
-                <Carousel />
-              
+              </div>
             </div>
           </div>
         </div>

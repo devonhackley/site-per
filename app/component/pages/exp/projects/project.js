@@ -1,12 +1,12 @@
   'use strict';
 
   import React, { Component } from 'react';
+  import './_project.scss';
 
   class Projects extends Component {
     render(){
       return(
-
-
+        <div className="project-box">
         <div className="pca-hold">
           <div className='pca-main'>
             <div className='pca-inner'>
@@ -26,10 +26,7 @@
           <p className="project-desc">Description</p>
           <p className="project-tech">Technologies</p>
         </div>
-      
-
-
-
+      </div>
       )
     }
   }
