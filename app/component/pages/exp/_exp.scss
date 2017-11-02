@@ -19,14 +19,14 @@ $font-alfa:'Alfa Slab One', cursive;
   width: 100%;
 
   .pca-hold {
-    width: 500px;
+    width: 360px;
     margin: 0 auto;
   }
   .pca-hold .pca-main {
     display: block;
     position: relative;
     background-color: #f3f1f1;
-    height: 300px;
+    height: 250px;
     border: 18px solid #2d2d2d;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
@@ -56,11 +56,17 @@ $font-alfa:'Alfa Slab One', cursive;
     display: block;
     text-align: center;
   }
+  .pca-top {
+    margin-top:-30px;
+  }
+  .pca-mid{
+    margin-top: -30px;
+  }
   .pca-hold .pca-sub .pca-top {
     position: relative;
     display: block;
-    width: 500px;
-    height: 40px;
+    width: 360px;
+    height: 20px;
     background-color: #e8e8e8;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
@@ -114,12 +120,23 @@ $font-alfa:'Alfa Slab One', cursive;
 
 }
 
-
-
 .hr {
   opacity: 0.3;
   background: #C0D1CE;
   width: 65%;
   height: 2.4px;
+  margin: 0em auto 1em;
+}
+
+.project-info {
+  width: 70%;
   margin: 0 auto;
+  background-color: rgba(255,255,255,0.8);
+  text-align: center;
+  border-radius: 5px;
+
+   &-title {
+     font-size: 1em;
+
+   }
 }
