@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 import Header from './header/header';
 import HomeText from './hometext/hometext';
+import About from './about/about';
 import Nav from '../nav/nav';
 import "./_home.scss";
 
@@ -14,6 +15,7 @@ class Home extends Component {
           <div className="col">
              <Nav />
              <Header />
+             <About />
           </div>
         </div>
       </div>

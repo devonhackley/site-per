@@ -1,0 +1,47 @@
+.about {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+  &-box {
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 15% auto;
+    width: 50%;
+    padding: 1.3em;
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 3px 3px 5px 6px rgba(0,0,0,0.2);
+
+    .about-head {
+      padding-bottom: 0.9em;
+      text-transform: uppercase;
+    }
+
+    .about-text {
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+    }
+  }
+}
+
+.break {
+  opacity: 0.2;
+  background: #000;
+  width: 65%;
+  height: 2.4px;
+  margin: 0em auto 1em;
+}
+
+.parallax {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Space_Needle002.jpg/1200px-Space_Needle002.jpg");
+
+  height:600px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
