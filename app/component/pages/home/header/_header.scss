@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Contrail+One');
+
+
+@mixin z-index($n: 1) {
+    @for $i from 0 to $n {
+        &:nth-child(#{$i + 1}) {
+            z-index: $n - $i;
+        }
+    }
+}
+
+$font-contrail: 'Contrail One', cursive;
+$font-roboto: 'Roboto Condensed', sans-serif;
+
+
+
+
+.header {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 1.2em;
+  background-color: #0D355A;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  .pic {
+    width: 20%;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 1.6em;
+  }
+}
+
+h2 {
+  text-transform: uppercase;
+  font-style: italic;
+  color:transparent;
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  letter-spacing: 0.6em;
+  color: #fff;
+  padding-top: 0.8em;
+}
+
+.shadow {
+  @include z-index(31);
+   color: #fff;
+   font: bold Helvetica, Arial, Sans-Serif;
+   text-shadow: 1px 1px 0 #10053D,
+                2px 2px 0 #10053D,
+                3px 3px 0 #10053D,
+                4px 4px 0 #10053D,
+                5px 5px 0 #10053D,
+                6px 6px 0 #10053D,
+                7px 7px 0 #10053D,
+                8px 8px 0 #10053D,
+                9px 9px 0 #10053D,
+                10px 10px 0 #10053D,
+                11px 11px 0 #10053D;
+}

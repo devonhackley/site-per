@@ -34,6 +34,10 @@ module.exports = {
         test: /\.html$/,
         loader: 'html-loader',
       },
+      {
+        test:/\.pdf$/,
+        loader: 'file-loader',
+      },
 
       {
         test:/\.scss/,
