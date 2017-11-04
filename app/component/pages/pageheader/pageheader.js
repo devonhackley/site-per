@@ -2,14 +2,14 @@
 
 import React, { Component } from 'react';
 
-import './_expheader.scss';
-import '../../nav/_nav.scss';
-import '../../home/header/_header.scss';
+import './_pageheader.scss';
+import '../nav/_nav.scss';
+import '../home/header/_header.scss';
 
-class ExpHeader extends Component {
+class PageHeader extends Component {
   render(){
     return(
-      <div className="expheader">
+      <div className="pageheader">
         <ul>
         <li className="nav-link active cmn-t-underline"><a href="/home">HOME</a></li>
         <li className="nav-link cmn-t-underline "><a href="/exp">EXP</a></li>
@@ -23,4 +23,4 @@ class ExpHeader extends Component {
   }
 }
 
-export default ExpHeader;
+export default PageHeader;

@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import ExpHeader from './expheader/expheader';
+import PageHeader from '../pageheader/pageheader';
 import Projects from './projects/project';
 import './_exp.scss';
 
@@ -15,7 +15,7 @@ class Exp extends Component {
     };
     return(
       <div className="exp">
-        <ExpHeader />
+        <PageHeader />
       </div>
     )
   }
