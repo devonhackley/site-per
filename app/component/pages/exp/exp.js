@@ -14,8 +14,12 @@ class Exp extends Component {
       showStatus: false
     };
     return(
-      <div className="exp">
-        <PageHeader />
+      <div className="exp container-fluid">
+        <div className="row">
+          <div className="col">
+             <PageHeader />
+          </div>
+        </div>
       </div>
     )
   }
