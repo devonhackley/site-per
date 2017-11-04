@@ -7,8 +7,8 @@
   &-box {
     box-sizing: border-box;
     background-color: #fff;
-    margin: 6% auto;
-    width: 50%;
+    margin: 5% auto;
+    width: 55%;
     padding: 1.3em;
     text-align: center;
     font-size: 1.5em;
@@ -22,10 +22,11 @@
     .about-text {
         line-height: 1.5;
         letter-spacing: 0.5px;
+        padding-bottom: 1em;
     }
 
     .about-icons {
-      padding: 0.8em 0.5em 0.5em;
+      padding: 0.8em 0.1em 0.5em;
      a {
        color: rgba(0,0,0,0.8);
        text-decoration: none;
@@ -48,14 +49,14 @@
   opacity: 0.2;
   background: #000;
   width: 65%;
-  height: 2.4px;
+  height: 2.6px;
   margin: 0em auto 1em;
 }
 
 .parallax {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Space_Needle002.jpg/1200px-Space_Needle002.jpg");
 
-  height:600px;
+  height:650px;
 
   background-attachment: fixed;
   background-position: center;
