@@ -7,7 +7,7 @@
   &-box {
     box-sizing: border-box;
     background-color: #fff;
-    margin: 15% auto;
+    margin: 6% auto;
     width: 50%;
     padding: 1.3em;
     text-align: center;
@@ -15,13 +15,31 @@
     box-shadow: 3px 3px 5px 6px rgba(0,0,0,0.2);
 
     .about-head {
-      padding-bottom: 0.9em;
-      text-transform: uppercase;
+      padding-bottom: 0.6em;
+      font-size: 1.9em;
     }
 
     .about-text {
         line-height: 1.5;
         letter-spacing: 0.5px;
+    }
+
+    .about-icons {
+      padding: 0.8em 0.5em 0.5em;
+     a {
+       color: rgba(0,0,0,0.8);
+       text-decoration: none;
+       transition: color 0.5s ease-in;
+
+       &:hover {
+         color: #F00B42;
+       }
+     }
+    }
+
+    i {
+      font-size: 2em;
+      width: 200px;
     }
   }
 }
