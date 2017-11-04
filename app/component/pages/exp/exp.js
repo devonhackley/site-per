@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import PageLeft from '../page-left';
+import ExpHeader from './expheader/expheader';
 import Projects from './projects/project';
 import './_exp.scss';
 
@@ -14,21 +14,8 @@ class Exp extends Component {
       showStatus: false
     };
     return(
-      <div className="container-fluid">
-        <div className="row ">
-          <div className="col col-sm-6 col-md-4 col-lg-3">
-            <PageLeft />
-          </div>
-          <div className="col col-sm-6 col-md-8 col-lg-9">
-            <div>
-              <h3 className="title">Projects</h3>
-              <div className="hr"></div>
-              <div className="projects">
-                  <Projects />
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="exp">
+        <ExpHeader />
       </div>
     )
   }
