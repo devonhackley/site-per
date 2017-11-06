@@ -18,6 +18,11 @@ class Exp extends Component {
         <div className="row">
           <div className="col">
              <PageHeader />
+             <div className="projects">
+                <h2 className="title">Projects</h2>
+                <div className="break"></div>
+                <Projects />
+             </div>
           </div>
         </div>
       </div>

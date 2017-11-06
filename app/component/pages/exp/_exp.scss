@@ -8,7 +8,7 @@ $font-alfa:'Alfa Slab One', cursive;
   color: #F00B42;
   font-family: $font-alfa;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 3em;
   line-height: 1.5;
   letter-spacing: 0.2em;
   padding: 0.4em;
@@ -24,6 +24,15 @@ $font-alfa:'Alfa Slab One', cursive;
 }
 .projects{
   position: relative;
+  top:125px;
   width: 100%;
 
+}
+
+.break {
+  opacity: 0.2;
+  background: #000;
+  width: 65%;
+  height: 2.6px;
+  margin: 0em auto 1em;
 }

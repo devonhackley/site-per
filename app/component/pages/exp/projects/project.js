@@ -10,7 +10,7 @@
         <div className="pca-hold">
           <div className='pca-main'>
             <div className='pca-inner'>
-              <p> Hi</p>
+              <img className="img-responsive" src="" />
             </div>
           </div>
           <div className='pca-sub'>
