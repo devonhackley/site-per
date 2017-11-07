@@ -2,6 +2,7 @@
 
   import React, { Component } from 'react';
   import './_project.scss';
+  import data from './data/data.json';
 
   class Projects extends Component {
     render(){

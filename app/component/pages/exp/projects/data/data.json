@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "title": "Portfolio Site",
+      "description":"This is my beta portfolio site that I built out. I wanted to have a pretty simplestic and responsive site, so that's what I went for. This is built using React and has Node for backend.",
+      "image": "",
+    },
+    {
+      "title": "HomeSecure",
+      "description":"Full stack application, that uses two point biometric authentication (photo recognition and spoken password) to grant entry to a home. Front-end built with Angular.js and backend built using Node. Application is hosted on heroku. Also uses a Raspberry pi to symbolize the locking/unlocking mechanism",
+      "image": "",
+      "github":"https://github.com/rpcvjet/HomeSecure",
+      "url":"http://homesecure.herokuapp.com/"
+    },
+    {
+      "title": "Goaltastic",
+      "description":"Goaltracking api built using Node, Express, and MongoDB for data persistence. Has REST routes for Users, Goals and Tasks. Also built out a splash page hosted on AWS EC2.",
+      "image": "",
+      "github":"https://github.com/devonhackley/goaltastic",
+      "url":""
+    },
+    {
+      "title": "Barkrawl",
+      "description":"Web app that utilizes both the Yelp API and Google API, to enable users to search for dog friendly bars that are located near them. App is built using Node for backend, and Bootstrap for styling.",
+      "image": "",
+      "github":"https://github.com/aer03280/Barkrawl",
+      "url":"barkrawl.herokuapp.com/"
+    },
+
+  ],
+}
